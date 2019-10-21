@@ -1,0 +1,21 @@
+Window > Defaults > Colors tab > set each of the 16 colors manually
+
+Red	Green	Blue
+
+28	28	28	Black
+95	135	175	Blue
+95	135	95	Green
+95	135	135	Cyan
+175	95	95	Red
+95	95	135	Magenta
+135	135	95	Yellow
+108	108	108	White
+
+68	68	68	(bold) Black
+143	175	215	(bold) Blue
+135	175	135	(bold) Green
+95	175	175	(bold) Cyan
+255	135	0	(bold) Red
+135	135	175	(bold) Magenta
+255	255	175	(bold) Yellow
+255	255		(bold) White
