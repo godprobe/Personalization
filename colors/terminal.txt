@@ -1,4 +1,4 @@
-Window > Defaults > Colors tab > set each of the 16 colors manually
+For consoles/terminals with an RGB-configurable 16-color palette.
 
 Red	Green	Blue
 
@@ -18,4 +18,4 @@ Red	Green	Blue
 255	135	0	(bold) Red
 135	135	175	(bold) Magenta
 255	255	175	(bold) Yellow
-255	255		(bold) White
+255	255	255	(bold) White
