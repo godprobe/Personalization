@@ -1,9 +1,14 @@
 set encoding=utf-8
 scriptencoding utf-8
 
-" Whitespace
+" Whitespace ('space' arg not available pre-7.4.710)
 " =================================================================
-set listchars=eol:¬,tab:»-,space:·,trail:«,extends:¶,precedes:§,conceal:±,nbsp:_
+if has("patch-7.4.710")
+	set listchars=eol:¬,tab:»-,space:·,trail:«,extends:¶,precedes:§,conceal:±,nbsp:_
+else
+	set listchars=eol:¬,tab:»-,trail:«,extends:¶,precedes:§,conceal:±,nbsp:_
+endif
+
 set list
 
 " Disable beep (enable flash instead, set it to nothing)
