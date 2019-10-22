@@ -1,7 +1,7 @@
 set encoding=utf-8
 scriptencoding utf-8
 
-" Whitespace ('space' arg not available pre-7.4.710)
+" Show whitespace ('space' arg not available pre-7.4.710)
 " =================================================================
 if has("patch-7.4.710")
 	set listchars=eol:¬,tab:»-,space:·,trail:«,extends:¶,precedes:§,conceal:±,nbsp:_
@@ -10,6 +10,10 @@ else
 endif
 
 set list
+
+" Toggle whitespace ('\' is default 'leader')
+" =================================================================
+nmap <leader>l :set list!<CR>
 
 " Disable beep (enable flash instead, set it to nothing)
 " =================================================================
@@ -20,6 +24,8 @@ set t_vb=
 " =================================================================
 set number
 
-" Toggle whitespace ('\' is default 'leader')
+" Permanent statusline
 " =================================================================
-nmap <leader>l :set list!<CR>
+set laststatus=2
+
+
